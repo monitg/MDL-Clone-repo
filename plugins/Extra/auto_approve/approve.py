@@ -64,16 +64,16 @@ async def auto_approve(client, message: ChatJoinRequest):
                     ]]
                 else:
                     buttons = [[
-                        InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                    ],[
-                        InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                        InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
-                    ],[
-                        InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                        InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
-                    ],[
-                        InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
-                    ]]
+                InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ',url=CHNL_LNK),
+                InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+            ],[
+                InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+            ],[
+                InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', callback_data="shortlink_info")
+            ]]
                 reply_markup = InlineKeyboardMarkup(buttons)
                 m=await client.send_sticker(chat_id = message.from_user.id, sticker = "CAACAgUAAxkBAAEBT3dnd2JkCu3rJKp0jF9-eu21f8kOtwACRRIAAsPvkVREHw5SlTxKtB4E") 
                 await asyncio.sleep(1)
