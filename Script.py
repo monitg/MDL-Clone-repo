@@ -223,7 +223,7 @@ Nᴀᴍᴇ - {}"""
 
     SHORTLINK_INFO = """
 
-<blockquote><b>🔰 Join Over Main Channel🔰</b></blockquote>"""
+<b><blockquote>🔰 Join Over Main Channel🔰</blockquote></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
