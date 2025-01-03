@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6869343193:AAGmZwghTCbQDegYTkY5KYplT-1QCfl
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/fbb9f9f774dacff88f8d9-148d5710dfc8f4ca35.jpg')).split()
 
 
 # Admins & Users
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Team_MDL')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Team_MDL_Admin_bot')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+nzb8EcPaMIg3N2Zl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AnimeRips')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+nzb8EcPaMIg3N2Zl') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/AnimeRips_owner')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -126,8 +126,8 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'seturl.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '269bd24b7ea6d49e1307b13e759e050923666606')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'ed5af7c04adbf8403e675f1abca2212f64b5efc3')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/demoshorts') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
@@ -174,7 +174,7 @@ RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
 
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
-AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', False)) # Set True or False
+AUTO_APPROVE_MODE = bool(environ.get('AUTO_APPROVE_MODE', True)) # Set True or False
 
 
 # Start Command Reactions
